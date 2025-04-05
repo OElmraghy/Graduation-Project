@@ -1,26 +1,26 @@
 const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
-const pickUpDate = document.getElementById("start");
-const returnDate = document.getElementById("stop");
+// const pickUpDate = document.getElementById("start");
+// const returnDate = document.getElementById("stop");
 
-let today = new Date();
-let nextWeek = new Date();
+// let today = new Date();
+// let nextWeek = new Date();
 
-nextWeek.setDate(today.getDate() + 7);
-function formatDate(date) {
-  return date.toLocaleString("en-US", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-    hour12: true,
-  });
-}
+// nextWeek.setDate(today.getDate() + 7);
+// function formatDate(date) {
+//   return date.toLocaleString("en-US", {
+//     month: "short",
+//     day: "numeric",
+//     year: "numeric",
+//     hour: "numeric",
+//     minute: "2-digit",
+//     hour12: true,
+//   });
+// }
 
-pickUpDate.placeholder = formatDate(today);
-returnDate.placeholder = formatDate(nextWeek);
+// pickUpDate.placeholder = formatDate(today);
+// returnDate.placeholder = formatDate(nextWeek);
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");

@@ -194,13 +194,24 @@ nav {
   z-index: -1;
 }
 
+@media (width < 768px) {
+  .header__image {
+    display: none;
+  }
+
+  .header__image img {
+    display: none;
+  }
+}
+
 .header__content {
   padding-block: 2rem 5rem;
-  padding-inline: 1rem;
+  padding-inline: 2rem;
 }
 
 .header__content h2 {
   width: fit-content;
+  direction: rtl;
   margin-inline: auto;
   margin-bottom: 1rem;
   padding: 0.5rem 1.5rem;
@@ -218,6 +229,12 @@ nav {
   font-weight: 800;
   color: var(--text-dark);
   text-align: center;
+}
+
+@media (width < 768px) {
+  .header__content h1 {
+    font-size: 2.5rem;
+  }
 }
 
 .header__form form {
@@ -799,7 +816,7 @@ nav {
   }
 
   .header__content :is(h1, .section__description) {
-    text-align: left;
+    text-align: right;
   }
 
   .header__form form {
