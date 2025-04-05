@@ -105,11 +105,9 @@ body {
 }
 
 header {
-  background: linear-gradient(
-    to bottom,
-    rgba(138, 121, 240, 0),
-    rgba(138, 121, 240, 0.1)
-  );
+  background: linear-gradient(to bottom,
+      rgba(138, 121, 240, 0),
+      rgba(138, 121, 240, 0.1));
 }
 
 nav {
@@ -377,6 +375,7 @@ nav {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -650,7 +649,7 @@ nav {
 }
 
 .footer__socials a {
-  padding: 6px 8px;
+  padding: 6px 12px;
   font-size: 1.125rem;
   color: var(--text-dark);
   background-color: var(--white);
@@ -685,7 +684,7 @@ nav {
 .footer__links span {
   display: inline-block;
   margin-right: 10px;
-  padding: 4px 6px;
+  padding: 4px 10px;
   border: 1px solid var(--extra-light);
   border-radius: 100%;
 }
@@ -786,10 +785,7 @@ nav {
   .header__container {
     padding-top: 0;
     grid-template-columns:
-      minmax(0, 1fr)
-      minmax(0, calc(var(--max-width) / 2))
-      minmax(0, calc(var(--max-width) / 2))
-      minmax(0, 1fr);
+      minmax(0, 1fr) minmax(0, calc(var(--max-width) / 2)) minmax(0, calc(var(--max-width) / 2)) minmax(0, 1fr);
   }
 
   .header__image {
@@ -839,10 +835,7 @@ nav {
 
   .choose__container {
     grid-template-columns:
-      minmax(0, 1fr)
-      minmax(0, calc(var(--max-width) / 2))
-      minmax(0, calc(var(--max-width) / 2))
-      minmax(0, 1fr);
+      minmax(0, 1fr) minmax(0, calc(var(--max-width) / 2)) minmax(0, calc(var(--max-width) / 2)) minmax(0, 1fr);
   }
 
   .choose__image {
@@ -872,10 +865,7 @@ nav {
 
   .subscribe__container {
     grid-template-columns:
-      minmax(0, 1fr)
-      minmax(0, calc(var(--max-width) / 2))
-      minmax(0, calc(var(--max-width) / 2))
-      minmax(0, 1fr);
+      minmax(0, 1fr) minmax(0, calc(var(--max-width) / 2)) minmax(0, calc(var(--max-width) / 2)) minmax(0, 1fr);
   }
 
   .subscribe__image {
