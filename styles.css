@@ -468,13 +468,14 @@ nav {
 .choose__grid {
   margin-top: 3rem;
   display: grid;
-  gap: 2rem 1rem;
+  gap: 2rem 2rem;
 }
 
 .choose__card {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
+  text-align: right;
 }
 
 .choose__card span {
@@ -866,7 +867,7 @@ nav {
   }
 
   .choose__content :is(.section__header, .section__description) {
-    text-align: left;
+    text-align: right;
   }
 
   .subscribe__container {
