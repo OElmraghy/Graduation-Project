@@ -237,48 +237,6 @@ nav {
   }
 }
 
-.header__form form {
-  max-width: 900px;
-  margin-inline: auto;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  background-color: var(--white);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-}
-
-.header__form .input__group {
-  flex: 1 0 170px;
-  display: grid;
-  gap: 10px;
-}
-
-.header__form label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-dark);
-}
-
-.header__form input {
-  width: 100%;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  color: var(--text-light);
-}
-
-.header__form input::placeholder {
-  color: var(--text-light);
-}
-
-.header__form .btn {
-  padding: 15px 17px;
-}
-
 .about__container .section__description {
   max-width: 600px;
   margin-inline: auto;
@@ -893,11 +851,6 @@ input[type="number"] {
 
   .header__content :is(h1, .section__description) {
     text-align: right;
-  }
-
-  .header__form form {
-    padding: 1.5rem;
-    transform: translateY(-50%);
   }
 
   .about__container {
