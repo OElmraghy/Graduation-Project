@@ -557,16 +557,10 @@ nav {
   transition: 0.4s;
 }
 
-/* For Webkit browsers (Chrome, Edge, Safari) */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
-
-/* For Firefox */
-input[type="number"] {
-  -moz-appearance: textfield;
 }
 
 .contact__content form .form-group textarea {
@@ -583,7 +577,7 @@ input[type="number"] {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-/* form */
+
 .client__container {
   padding-bottom: 1rem;
 }
